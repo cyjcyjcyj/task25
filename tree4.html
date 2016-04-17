@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="http://www.mengdongli.com/skins/2012/js/jquery1.3.2.js"></script>
+<script type="text/javascript" src="tree4js.js"></script>
+<link rel="stylesheet" type="text/css" href="tree4css.css">
+</head>
+
+<body>
+<div>
+<ul class="ull tree">
+ <li class="tree" id="1">1</li>
+    <ul class="ulchild tree" id="2">
+     <li class="tree" id="3">1.1</li>
+     <li class="tree" id="4">1.2</li>
+     <li class="tree" id="5">1.3</li>
+   </ul>
+ <li class="tree" id="6">2</li>
+   <ul class="ulchild tree" id="7">
+     <li class="tree" id="8">2.1</li>
+	 <ul class="ulchild tree">
+        <li class="tree" id="9">2.1.1</li>
+        <li class="tree" id="10">2.1.2</li>
+		   <ul class="ulchild tree">
+		    <li class="tree" id="11">2.1.2.1</li>
+			<li class="tree" id="12">2.1.2.2</li>
+			</ul>
+        <li class="tree" id="13">2.1.3</li>
+     </ul>
+     <li class="tree" id="14">2.2</li>
+   </ul>
+ <li class="tree" id="15">3</li>
+</ul>
+
+</div>
+<div>
+<button id="addnode">添加节点</button>
+<button id="delnode">删除节点</button>
+<input type="text" value="" name="find" />
+<button id="wantnode">查询节点</button>
+</div>
+
+</body>
+</html>
